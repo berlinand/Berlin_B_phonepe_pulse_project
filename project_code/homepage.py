@@ -5,20 +5,19 @@ from git import Repo
 import mysql.connector
 import json
 import plotly.express as px
-from dash import dcc, html,Dash,callback,Input,Output
+
 
 #paste your State map json file
-json_path1 =""
+json_path1 ="your json map"
 with open(json_path1, 'r') as f:
     india_map1 = json.load(f)
 
 #paste your district map json file 
-json_path2 =""
+json_path2 ="your json map"
 with open(json_path2, 'r') as g:
     india_map2=""
 git_url="https://github.com/PhonePe/pulse.git"
-des_path=""
-
+des_path="save data to local-path from git"
 #paste your mysql connection and database 
 connection=mysql.connector.connect(host='localhost',username='root',password='berlin0',database='phonepe')
 mycursor=connection.cursor()
@@ -648,6 +647,8 @@ def map1(use,year,Quater,select2):
    if use=='Transactions': 
         if select2=='District':
            select2='State'
+        if select2=='Avg. Transaction Value':
+           select2='State'        
         fig=px.choropleth(
                    df1,
                 geojson=india_map1,
@@ -1113,9 +1114,9 @@ sql_top_user(top_user_dis_df,top_user_pin_df)
 st.title(":violet[Phonepe] :red[Pulse]")
 st.header("Data Visualization Exploration")
 co1,co2,co3=st.columns(3)
-us_tr=co1.selectbox(label='select one',options=['Users','Transactions'])
-year=co2.selectbox(label='select one',options=[2018,2019,2020,2021,2022,2023])
-qu=co3.selectbox(label='select one',options=['Q1 (Jan-Mar)','Q2 (Apr-Jun)','Q3 (Jul-Sep)','Q4 (Oct-Dec)'])
+us_tr=co1.selectbox(label='select a value',options=['Users','Transactions'])
+year=co2.selectbox(label='select a value',options=[2018,2019,2020,2021,2022,2023])
+qu=co3.selectbox(label='select a value',options=['Q1 (Jan-Mar)','Q2 (Apr-Jun)','Q3 (Jul-Sep)','Q4 (Oct-Dec)'])
 co4,co5=st.columns(2)
 co6,co7,co8,co9=st.columns(4)
 states_map=co4.checkbox(label="India State Map")
@@ -1126,12 +1127,12 @@ select1= co6.selectbox(label="select a state",options=li,placeholder="select a s
 
 if us_tr=='Users':
    map_usli= map_userli(us_tr,year,qu)
-   select2=co7.selectbox(label="select a value",options=map_usli) 
+   select2=co7.selectbox(label="select a map value",options=map_usli) 
    
    
 elif us_tr=='Transactions' :
   map_trli=map_transli(us_tr,year,qu)
-  select2=co7.selectbox(label="select a value",options=map_trli)  
+  select2=co7.selectbox(label="select a map value",options=map_trli)  
 
 if  us_tr=='Users':
    map_usli1=map_useli(us_tr,year,qu)
@@ -1151,9 +1152,9 @@ if districts_map==True:
 if select1 != "select a state from below":
   map3(us_tr,year,qu,select1,select2,select3)
 
-st.subheader(":violet[Phonepe pulse Facts]")
+st.subheader(":violet[Phonepe] :red[Pulse] :orange[Facts]")
 
-questli=["select a Fact from below","What are the Total transaction amount, Average transaction amount, and Total transaction count?",
+questli=["select a Question from below","What are the Total transaction amount, Average transaction amount, and Total transaction count?",
          "What are the Total Registered PhonePe users, Total App open ?",
          "What are the top ten transaction amount districts?","What are the top ten districts by average transaction amount?",
          "What are the top ten transaction counts by district?","What are the top ten transaction amount pincode ?",
