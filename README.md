@@ -6,11 +6,11 @@
 
 
 ## Before running the application Do this:
-**paste your map path in json_path1 and json_path2**
+**paste your india state map path in json_path1 and india district map in json_path2**
 
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/826af29a-ddd0-40f5-a3ce-22144422d396)
 
-**Paste the local system path where you want to store your GitHub clone data**
+**Paste the local system path in des_path where you want to store your GitHub clone data**
 
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/80502b56-7a29-4a70-8cdb-9bbac618f155)
 
