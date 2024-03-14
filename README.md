@@ -5,7 +5,7 @@
 ![work1](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/0ff12124-4f25-4126-ba30-bdcf88dd1224)
 
 
-## Before running the application do this
+## Before running the application Do this:
 **paste your map path in json_path1 and json_path2**
 
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/826af29a-ddd0-40f5-a3ce-22144422d396)
