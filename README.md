@@ -14,7 +14,7 @@
 
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/80502b56-7a29-4a70-8cdb-9bbac618f155)
 
-**Change the host,username,password and database according to your needs.**
+**Change the mysql connection host,username,password and database according to your needs.**
 
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/a9e17bc9-8e49-43c1-b3b2-6a7f068bfc26)
 
