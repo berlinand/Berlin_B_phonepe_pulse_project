@@ -5,9 +5,26 @@
 ![work1](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/0ff12124-4f25-4126-ba30-bdcf88dd1224)
 
 
+## Before running the application do this
+**paste your map path in json_path1 and json_path2**
+
+![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/826af29a-ddd0-40f5-a3ce-22144422d396)
+
+**Paste the local system path where you want to store your GitHub clone data**
+
+![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/80502b56-7a29-4a70-8cdb-9bbac618f155)
+
+**Change the host,username,password and database according to your needs.**
+
+![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/a9e17bc9-8e49-43c1-b3b2-6a7f068bfc26)
+
+
+
+
 ## Homepage:
  **Using the Streamlit application, we can create graphical user interfaces (GUIs) for our Python scripts**
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/3f2e20a1-2ebc-4156-a654-1698dfa82281)
+
 ## Functions:
 **1.This dropdown function is used for users to select which type of data they want to display, such as user or Transactions data.**
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/4d0a6a91-570c-4db0-8c49-d8025e8f1d2a)
