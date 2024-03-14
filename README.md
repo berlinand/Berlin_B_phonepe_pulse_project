@@ -29,7 +29,7 @@
 
 **8.This 'chart' dropdown function allows the user to select a type of chart.**
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/d69f3c97-ff7b-46e1-ab71-03dda0ba5eb8)
-![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/9ad70d2d-536c-4a6f-8305-53b24e06e105)
+![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/1fe987fb-31f1-4301-9ed8-8dcd83e10070)
 
 **9.This 'select a chart value' dropdown function allows the user to select the type of chart value they want to display.**
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/aa2f715f-1c32-4e11-8632-b19ae87593e6)
