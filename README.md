@@ -1,6 +1,9 @@
 # Phonepe Pulse:
 ## Introduction:
  In the PhonePe Pulse application, users can utilize an interactive India map and charts and user-friendly options to view data for Transactions and Users in each year and quarter. Additionally, some facts are determined in PhonePe Pulse through interactive charts.
+ 
+![work](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/2d0194a1-9b84-46d3-95a7-4e52ac182d56)
+
 ## Homepage:
  **Using the Streamlit application, we can create graphical user interfaces (GUIs) for our Python scripts**
 ![image](https://github.com/berlinand/Berlin_B_phonepe_pulse_project/assets/154864172/3f2e20a1-2ebc-4156-a654-1698dfa82281)
